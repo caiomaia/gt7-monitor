@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* depois você pode personalizar assim */
+@theme {
+  --color-brand: #1e40af;
+}
+body{
+  @apply bg-neutral-800
+}
